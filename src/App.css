@@ -32,7 +32,24 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.classl {
+  background-color: #61dafb;
+  /* outline-style: outset; */
+  border-style: dotted;
+  width: "30%";
+}
+
+.ant-menu-item-selected {
+  background-color: #B039CC;
+}
+
+.kil {
+  overflow-y: scroll;
+  width: 100%;
 }
